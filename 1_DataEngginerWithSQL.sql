@@ -120,11 +120,11 @@ insert into penjualan values
 ;
 
 --tampilkan daftar produk yang memiliki harga antara 50.000 and 150.000
-select 
+SELECT 
     * 
-from 
+FROM 
     produk 
-where 
+WHERE 
     harga >= 50000 and harga <= 150000
     ;
 
